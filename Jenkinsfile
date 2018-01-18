@@ -4,6 +4,7 @@ pipeline {
         stage('Example') {
             steps {
                 echo "Running ${env.BUILD_ID}"
+                echo "2"
             }
         }
     }
